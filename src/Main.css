@@ -1,0 +1,93 @@
+.main {
+  display: flex;
+  width: auto;
+  height: 100vh;
+  padding: 120px 16px 200px 16px;
+  flex-direction: column;
+  align-items: center;
+  background: var(--Dark-Blue, #202733);
+}
+.container_Main {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 343px;
+  height: 315px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: var(--Dark-Grayish-Blue, #313a48);
+  box-shadow: 30px 50px 80px 0px rgba(0, 0, 0, 0.1);
+}
+.advice_Number {
+  color: var(--Neon-Green, #53ffaa);
+  text-align: center;
+  font-family: Manrope;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  letter-spacing: 3.457px;
+  margin-top: 40px;
+}
+.advice_Text {
+  width: 295px;
+  color: var(--Light-Cyan, #cee3e9);
+  text-align: center;
+  font-family: Manrope;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  letter-spacing: -0.257px;
+  margin-top: 24px;
+}
+.div_Line_Box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 24px;
+  gap: 16px;
+  width: 295px;
+  height: 16px;
+  flex-shrink: 0;
+}
+.first_Div {
+  width: 122px;
+  height: 1px;
+  flex-shrink: 0;
+  background: var(--Grayish-Blue, #4f5d74);
+}
+.pause_Icon {
+  width: 20px;
+  height: 16px;
+  flex-shrink: 0;
+}
+.second_Div {
+  width: 122px;
+  height: 1px;
+  flex-shrink: 0;
+  background: var(--Grayish-Blue, #4f5d74);
+}
+.generate_Icon {
+  position: absolute;
+  width: 64px;
+  height: 64px;
+  flex-shrink: 0;
+  margin-top: 283px;
+}
+.generate_Icon:hover {
+  cursor: pointer;
+}
+.generate_Icon:active {
+  transform: scale(0.9);
+}
+/* @media (min-width: 601px) {
+  .main {
+    border-radius: 15px;
+    background: var(--Dark-Grayish-Blue, #313a48);
+    box-shadow: 30px 50px 80px 0px rgba(0, 0, 0, 0.1);
+  }
+}
+ */
